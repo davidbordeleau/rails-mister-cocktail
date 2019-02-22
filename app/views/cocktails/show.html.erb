@@ -10,3 +10,5 @@
     <%= link_to "Add ingredient", new_cocktail_dose_path(@cocktail) %> <br>
     <%= link_to "Go Back", cocktails_path %>
 </div>
+
+<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
