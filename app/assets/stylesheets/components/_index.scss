@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+// Import your components CSS files here.
+@import "alert";
+@import "navbar";
+@import "card";
+
+.wrapper {
+  margin: 0 50px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
